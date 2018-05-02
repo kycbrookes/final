@@ -1,12 +1,8 @@
-html {
-    height: 100%;
-    background-color: none;
-}
 body {
-    min-height: 100%;
+  min-height:100%;
 }
 .flex-container {
-    padding: 0;
+    padding: 2em;
     margin: 0;
     list-style: none;
     background: none;
@@ -28,26 +24,28 @@ body {
 }
 .flex-item {
     background: none;
-    padding: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+    padding-right: 0em;
     width: auto;
     margin: 5px;
 }
 p {
     font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
-    line-height: 1.5em;
+    font-size: 18px;
+    line-height: 2em;
     text-align: left;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 10;
-    padding-right: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0em;
+    padding-right: 2em;
 }
 .fa {
-    padding: 10px;
-	padding-top: 1em;
-    padding-bottom: 1em;
-	font-size: 30px;
-	width: 120px;
+    padding: 0em;
+	padding-top: 2em;
+    padding-bottom: 2em;
+	width: 130px;
 	text-align: center;
     text-decoration: none;
 }
@@ -79,11 +77,14 @@ a {
     text-decoration: none;
     color: black;
 }
-img {
-    max-width: 100%;
-    height: auto;
+a:hover {
+    background-color: #F0F0F0;
 }
-iframe {
-    width: 800px;
-    padding: auto;
+footer {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    padding-left: 3em;
+    padding-right: 2em;
 }
